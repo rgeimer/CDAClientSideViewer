@@ -2,6 +2,9 @@
 <head>
     <title></title>
     <script type="text/javascript" src="js/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/vendor/modernizr.js"></script>
+    <script type="text/javascript" src="js/vendor/Saxonce/Saxonce.nocache.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
@@ -11,9 +14,11 @@
             <input type="file" id="file" name="file"/>
             <button ng-click="displayCDA()">Display CDA</button>
         </div>
+        <hr/>
+        <div>{{fileData}}</div>
     </div>
-    <hr/>
-    <div id="example"/>
+    <hr>
+    <div id="example"></div>
 </div>
 </body>
 </html>
